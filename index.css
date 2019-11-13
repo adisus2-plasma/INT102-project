@@ -53,33 +53,6 @@ body {
   
 }
  
- 
-
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: right;
-}
-
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
 
 
 
@@ -197,7 +170,7 @@ img {vertical-align: middle;}
 
 /* รูปสี่รูปที่มีโอเวอร์เลย์ */
 #rig {
-  max-width:4000px;
+  max-width:5000px;
   margin:0 auto; 
   padding:0;
   font-size:0; 
@@ -214,8 +187,8 @@ img {vertical-align: middle;}
       
 
 .rig-cell {
-  margin:3px;
-  box-shadow:0 0 6px #000000;
+  margin:2.0px;
+  box-shadow:0 0 0px rgb(250, 242, 242);
   display:block;
   position: relative;
   overflow:hidden;
@@ -244,7 +217,7 @@ img {vertical-align: middle;}
   bottom: 0;
   right: 0;
   margin: auto;
-  background: rgb(91, 99, 102) url(img/link.png) no-repeat center 20%;
+  background: rgb(17, 22, 24) url(img/link.png) no-repeat center 20%;
   background-size:50px 50px;
   opacity:0;
   filter:alpha(opacity=0);
@@ -302,3 +275,49 @@ img {vertical-align: middle;}
 p{color: #ddd;}
 table{color: #ddd;}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* หัวข้อ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b0c0c;
+}
+
+li {
+  float:right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(40, 43, 44);
+}
