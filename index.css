@@ -1,5 +1,5 @@
 
-/* หัวข้อ */
+/* Tabar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,9 +26,23 @@ li a:hover {
   background-color:rgb(40, 43, 44);
 }
 
-
-
-
+/* หัวข้อ */
+p{color: #ddd;
+  font-family: 'Tomorrow', sans-serif;}
+  
+table{
+     color: #ddd;
+    font-family: 'Tomorrow', sans-serif;}
+.colum{color: #ddd;
+    font-family: 'Tomorrow', sans-serif;;
+    font-size: 45px;
+ 
+ }
+ .linecolum{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.Photonews{  border-radius:  10px ;}
 
 
 
@@ -250,36 +264,28 @@ img {vertical-align: middle;}
 }
 
 
-p{color: #ddd;
-font-family: 'Tomorrow', sans-serif;}
-
-table{
-   color: #ddd;
-  font-family: 'Tomorrow', sans-serif;}
-
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Overwatch2*/
 #line {
   color: #ddd;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
