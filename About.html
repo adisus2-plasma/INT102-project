@@ -11,7 +11,7 @@
 <body style="background-color: black;">
 
     <ul>
-        <li><a href="#home">About</a></li>
+        <li><a href="#About">About</a></li>
         <li><a href="#news">Contact</a></li>
         <li><a href="#contact">News</a></li>
         <li><a href="Main.html">Home</a></li>
@@ -23,11 +23,11 @@
 
     <fieldset>
         <legend>
-            <p>Our Team</p>
+            <p>About</p>
         </legend>
-        <p id="About">ในทีมนี้ ก็จะประกอบด้วย
+        <p id="About">เว็ปนี้เกี่ยวกับ
             <span id="dots">...</span><span id="more">
-                62130500072,62130500082, 62130500090
+                การนำเนื้อหรือ Gameplaye เเละข่าวในวงการเกมระดับโลก
             </span></p>
             <button onclick="myFunction()" id="myBtn">อ่านเพิ่มเติม</button>
     </fieldset>
@@ -39,15 +39,16 @@
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
+                btnText.innerHTML = "อ่านเพิ่มเติม"
                 moreText.style.display = "none";
             } else {
                 dots.style.display = "none";
-                btnText.innerHTML = "Read less";
+                btnText.innerHTML = "ย่อกลับ";
                 moreText.style.display = "inline";
             }
         }
     </script>
+    
 </body>
 
 </html>
