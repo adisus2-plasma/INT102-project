@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+
+    <ul>
+        <li><a href="#home">About</a></li>
+        <li><a href="#news">Contact</a></li>
+        <li><a href="#contact">News</a></li>
+        <li><a href="Main.html">Home</a></li>
+
+        <li style="margin-right: 600px;"><img src="images/LOGO.webp" width="100"></li>
+    </ul>
+    <br>
+
+
+    <fieldset>
+        <legend>
+            <p>Our Team</p>
+        </legend>
+        <p id="About">ในทีมนี้ ก็จะประกอบด้วย
+            <span id="dots">...</span><span id="more">
+                62130500072,62130500082, 62130500090
+            </span></p>
+            <button onclick="myFunction()" id="myBtn">อ่านเพิ่มเติม</button>
+    </fieldset>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+
+</html>
