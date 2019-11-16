@@ -175,6 +175,7 @@ img {vertical-align: middle;}
   box-sizing:border-box;
   margin:0;
   padding:0;
+  
 }
       
 
@@ -184,6 +185,7 @@ img {vertical-align: middle;}
   display:block;
   position: relative;
   overflow:hidden;
+  border-radius:  10px ;
 }
       
 
@@ -194,6 +196,7 @@ img {vertical-align: middle;}
   border:none;
   transform:scale(1);
   transition:all 1s;
+  border-radius:  10px ;
 }
 
 #rig li:hover .rig-img {
@@ -287,7 +290,6 @@ button {
 }
 
 button:hover {opacity: 0.6}
-
 
 
 
