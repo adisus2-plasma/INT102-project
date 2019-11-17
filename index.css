@@ -18,7 +18,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px 16px;
+  padding: 26px 16px;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ table{
     font-family: 'Tomorrow', sans-serif;}
 .colum{color: #ddd;
     font-family: 'Tomorrow', sans-serif;;
-    font-size: 45px;
+    font-size: 80px;
  
  }
  .linecolum{
@@ -291,7 +291,7 @@ button {
 
 button:hover {opacity: 0.6}
 
-.contact{font-size: 70px;
+.contact{font-size: 100px;
   color: #ddd;
   font-family: 'Tomorrow', sans-serif;
 }
@@ -299,6 +299,7 @@ button:hover {opacity: 0.6}
 .photocontact{font-size: 30px;
   color: #ddd;
   font-family: 'Tomorrow', sans-serif;
+ 
 }
 
 .facebook:link{
