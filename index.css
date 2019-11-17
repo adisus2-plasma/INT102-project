@@ -291,12 +291,23 @@ button {
 
 button:hover {opacity: 0.6}
 
+.contact{font-size: 70px;
+  color: #ddd;
+  font-family: 'Tomorrow', sans-serif;
+}
 
+.photocontact{font-size: 30px;
+  color: #ddd;
+  font-family: 'Tomorrow', sans-serif;
+}
 
-
-
-
-
+.facebook:link{
+color: #ddd;
+}
+.facebook:visited {
+	color: #ddd; 
+}
+.facebook:hover{color: aqua;}
 
 
 
