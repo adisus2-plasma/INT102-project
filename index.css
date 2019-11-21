@@ -32,7 +32,8 @@ p{color: #ddd;
   
 table{
      color: #ddd;
-    font-family: 'Tomorrow', sans-serif;}
+    font-family: 'Tomorrow', sans-serif;
+  }
 .colum{color: #ddd;
     font-family: 'Tomorrow', sans-serif;;
     font-size: 80px;
@@ -52,7 +53,12 @@ margin-bottom: 10px;
 
 /* Slideshow container */
 *{box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0;
+   background-size: 100% ;
+   background-repeat: repeat-y; 
+}
 .mySlides ,.mySlides2 {display: none}
 img {vertical-align: middle;}
 
@@ -269,10 +275,31 @@ img {vertical-align: middle;}
 
 
 
-/*Overwatch2*/
-#line {
+/* ข้อมูล */
+.datain {
+  font-size: 30px;
   color: #ddd;
+  font-family: 'Mitr', sans-serif;
+  
 }
+.datahead{ font-size: 65px;
+  color: #ddd;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 150px;
+}
+.info
+{ 
+  font-size: 40px;
+  color: #ddd;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 230px;
+  margin-top: -50px;
+  width: 39em;
+}  
+
+
+
+
 
 /*About*/
 #more {display: none;}
@@ -289,6 +316,8 @@ button {
   transition: 0.3s;
 }
 
+
+
 button:hover {opacity: 0.6}
 
 .contact{font-size: 100px;
@@ -296,12 +325,15 @@ button:hover {opacity: 0.6}
   font-family: 'Tomorrow', sans-serif;
 }
 
-.photocontact{font-size: 30px;
+.photocontact{font-size: 2em;
   color: #ddd;
   font-family: 'Tomorrow', sans-serif;
  
+ 
 }
 
+
+/* link */
 .facebook:link{
 color: #ddd;
 }
@@ -310,8 +342,16 @@ color: #ddd;
 }
 .facebook:hover{color: aqua;}
 
+#cyber:hover{ 
+  transform:translateY(0px);
+  opacity:0.9;
+}
 
+#codmw:hover
+{  transform:translateY(0px);
+  opacity:0.9;
 
+}
 
 
 
