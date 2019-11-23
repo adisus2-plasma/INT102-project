@@ -43,7 +43,8 @@ table{
 margin-top: 10px;
 margin-bottom: 10px;
 }
-.Photonews{  border-radius:  10px ;}
+.Photonews{  border-radius:  10px ;
+}
 
 
 
@@ -288,7 +289,7 @@ img {vertical-align: middle;}
   font-size: 40px;
   color: #ddd;
   font-family: 'Mitr', sans-serif;
-  margin-left: 230px;
+  margin-left: 200px;
   margin-top: -50px;
   width: 39em;
 }  
@@ -349,5 +350,11 @@ color: #ddd;
 
 }
 
-
-
+.thankyou{
+   font-size: 20px;
+   color: aliceblue;  
+   font-family: 'Mitr', sans-serif;
+}
+.thankyouli:hover{
+  color: aqua;
+}
