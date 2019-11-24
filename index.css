@@ -372,3 +372,7 @@ text-decoration: none;
 .ref:hover{
   color: aqua;
 }
+
+body{
+  background: white url(/images/BG02.png) no-repeat center fixed; 
+}
