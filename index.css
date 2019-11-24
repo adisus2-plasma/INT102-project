@@ -7,6 +7,7 @@ ul {
   overflow: hidden;
   background-color:black;
   font-family: 'Tomorrow', sans-serif;
+  border-radius: 10px;
 }
 
 li {
@@ -20,6 +21,7 @@ li a {
   text-align: center;
   padding: 26px 16px;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 li a:hover {
@@ -286,7 +288,7 @@ img {vertical-align: middle;}
 }
 .info
 { 
-  font-size: 40px;
+  font-size: 30px;
   color: #ddd;
   font-family: 'Mitr', sans-serif;
   margin-left: 200px;
@@ -333,9 +335,11 @@ button:hover {opacity: 0.6}
 /* link */
 .facebook:link{
 color: #ddd;
+text-decoration: none;
 }
 .facebook:visited {
-	color: #ddd; 
+  color: #ddd; 
+  text-decoration: none;
 }
 .facebook:hover{color: aqua;}
 
@@ -362,6 +366,8 @@ color: #ddd;
 .ref {
   color: white;
   text-decoration: none;
+  font-size: 30px;
+
 }
 .ref:hover{
   color: aqua;
