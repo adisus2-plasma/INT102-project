@@ -358,3 +358,11 @@ color: #ddd;
 .thankyouli:hover{
   color: aqua;
 }
+
+.ref {
+  color: white;
+  text-decoration: none;
+}
+.ref:hover{
+  color: aqua;
+}
