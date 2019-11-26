@@ -366,7 +366,7 @@ text-decoration: none;
 .ref {
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
 
 }
 .ref:hover{
@@ -375,4 +375,8 @@ text-decoration: none;
 
 body{
   background: white url(/images/BG02.png) no-repeat center fixed; 
+}
+
+.newspaper {
+  column-count: 2;
 }
