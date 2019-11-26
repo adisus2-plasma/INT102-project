@@ -65,7 +65,7 @@ img {vertical-align: middle;}
   max-width: 2200px;
   position: relative;
   margin: auto;
-  margin-top: -32px;
+  margin-top: -30px;
 }
 
 
@@ -284,40 +284,19 @@ img {vertical-align: middle;}
 .datahead{ font-size: 65px;
   color: #ddd;
   font-family: 'Mitr', sans-serif;
-  margin-left: 150px;
+  
 }
 .info
 { 
-  font-size: 30px;
+  font-size: 25px;
   color: #ddd;
   font-family: 'Mitr', sans-serif;
-  margin-left: 200px;
+  margin-left: 290px;
   margin-top: -50px;
   width: 39em;
 }  
 
 
-
-
-
-/*About*/
-#more {display: none;}
-
-button {
-  background-color: rgb(95, 90, 90);
-  border: none;
-  color: white;
-  padding: 5px 20px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 1;
-  transition: 0.3s;
-}
-
-
-
-button:hover {opacity: 0.6}
 
 .contact{font-size: 100px;
   color: #ddd;
